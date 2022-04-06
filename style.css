@@ -4,35 +4,39 @@
   box-sizing:border-box;
 }
 /*以下　ヘッダー*/
-.header{
-  width:100%;
-  height:120px;
-  background-color:red;
+ header{
+  width:90%;
+  height:15px 0;
+  margin:0 auto;
+  text-align:center;
 }
 
-.header-top{
-  width:100%;
-  height:70px;
-  background-color:hotpink;
+ .header,heading{
+  front-size:32px;
 }
 
-.header-bottom{
-  width:100%;
-  height:50px;
-  background-color:pink;
+.nav-list{
+  text-align:center;
+  padding:10px 0;
+  margin:0 auto;
 }
+
+.nav-list-item{
+  list-style:none;
+  display:inline-block;
+  margin:0 20px;
+}
+
 /*ここまで　ヘッダー*/
 /*以下　メインビジュアル*/
 .main-visual{
   width:100%;
   height:300px;
-  background-color:orange;
   }
 
 .main-visual-content{
   width:350px;
   height:300px;
-  background-color:gold;
 }
 /*ここまで　メインビジュアル*/
   /*以下　メイン*/
@@ -47,19 +51,24 @@
 .blog{
   width:600px;
   height:1400px;
-  background-color:limegreen;
 }
 
 .sidebar{
   width:240px;
   height:1400px;
-  background-color:palegreen;
 }
 /*ここまで　メイン*/
 /*以下　フッター*/
-.footer{
+footer{
   width:100%;
   height:120px;
-  background-color:blue;
+  text-align:center;
+  line-height: 120px;
+  background-color:#848282;
 }
+
+.footer-text{
+  color:#fff;
+}
+
 
