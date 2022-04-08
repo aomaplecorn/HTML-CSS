@@ -1,1 +1,32 @@
-/*push用*/
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+                      /*ここからヘッダー*/
+.main-header{
+  width:100%;
+  height:50px;
+  margin-bottom:50px;
+  background-color:#FF9A4B;
+}
+
+                      /*ここからメイン*/
+.main-step{
+  width:45px;
+  height:30px;
+  background-color:#FF9A4B;
+}
+ 
+.main-step p { 
+  color:#FFF;
+}
+
+                      /*ここからフッター*/
+.main-footer{
+  width:100%;
+  height:50px;
+  margin-top:50px;
+  background-color:#AAAAAA;
+}
